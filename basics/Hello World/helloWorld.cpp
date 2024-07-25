@@ -2,8 +2,10 @@
 
 // import std; // cant make c++20 import functionality work
 #include <iostream>
+using namesapce std; // allows to avoid specifing std::
 
 int main() {
-    std::cout << "Hello World!\n";
+    // std::cout << "Hello World!\n";
+    cout << "Hello World!\n";
     return 0;
 }
